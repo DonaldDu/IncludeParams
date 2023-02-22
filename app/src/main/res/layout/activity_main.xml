@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.dhy.xml_tool.IncludeParams
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="中文变量名:1;b:2"
+        app:layoutId="@layout/item" />
+
+    <com.dhy.xml_tool.IncludeParams
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="中文变量名:3;b:4"
+        app:layoutId="@layout/item" />
+
+</LinearLayout>
